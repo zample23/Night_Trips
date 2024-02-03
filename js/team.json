@@ -1,0 +1,22 @@
+[
+   {
+      "name": "Martin Jack",
+      "position": "CEO",
+      "img": "about_us_image-1.jpg"
+   },
+   {
+      "name": "Lidia Sparrow",
+      "position": "Art-Director",
+      "img": "about_us_image-2.jpg"
+   },
+   {
+      "name": "Julia Cage",
+      "position": "Main consultant",
+      "img": "about_us_image-3.jpg"
+   },
+   {
+      "name": "Vanessa Bronson",
+      "position": "Sales manager",
+      "img": "about_us_image-4.jpg"
+   }
+]

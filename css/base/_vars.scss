@@ -1,0 +1,47 @@
+//Fonts
+$font-main: 'Larsseit';
+$font-second: 'Noe Display';
+
+$container: 1410px;
+$container-big: 1460px;
+$container-small: 1084px;
+
+//Media
+$laptoplarge: 1440px;
+$laptop: 1024px;
+$tablet: 768px;
+$phone: 425px;
+
+//Colors
+$aqua: #00C9E0;
+$aquamarine: #41EAD4;
+$navyblue: #02223B;
+$darkblue: #011627;
+$white: #ffffff;
+$black: #000000;
+
+//Mixins
+
+@mixin mediaLaptopLarge {
+   @media screen and (max-width: $laptoplarge){
+      @content;
+   }
+}
+
+@mixin mediaLaptop {
+   @media screen and (max-width: $laptop){
+      @content;
+   }
+}
+
+@mixin mediaTablet {
+   @media screen and (max-width: $tablet){
+      @content;
+   }
+}
+
+@mixin mediaPhone {
+   @media screen and (max-width: $phone){
+      @content;
+   }
+}

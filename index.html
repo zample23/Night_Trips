@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+   <link rel="stylesheet" href="fonts/Larsseit/stylesheet.css">
+   <link rel="stylesheet" href="fonts/Noe Display Bold/stylesheet.css">
+   <link rel="stylesheet" href="css/iconsfont.css">
+   <link rel="stylesheet" href="css/main.css">
+   <title>Night Trips</title>
+
+</head>
+
+<body>
+   <section class="wrapper">
+
+      <section class="header-and-swiper">
+         <header class="header">
+
+            <div class="container-big">
+               <div class="header__grid">
+                  <div class="header__nav">
+                     <a href="#!" class="header__logo">
+                        <img src="./img/logo.png" alt="Night Trips">
+                     </a>
+                     <div class="header__menu">
+                        <form action="#" id="header__form">
+                           <input type="text" name="search" class="header__search-field">
+                        </form>
+                        <a class="header__search"><span class="icon-search"></span></a>
+                        <button class="header__menu-button">Menu</button>
+                     </div>
+                  </div>
+                  <div class="header__main">
+                     <h1 class="header__title">Night Trips</h1>
+                     <p class="header__subtitle">We got trips for the trippster in you</p>
+                     <p class="header__text">Neque, eros commodo, nascetur ullamcorper vitae. Tincidunt ut venenatis,
+                        volutpat
+                        lorem ut faucibus mauris, quisque. Integer gravida sed quis congue. Vel risus, arcu a viverra
+                        leo
+                        id
+                        pulvinar ultricies. Enim in in in pulvinar nulla sollicitudin. Ullamcorper.</p>
+                  </div>
+                  <div class="header__bottom">
+                     <div class="header__scroll">
+                        <div class="header__scroll-item"></div>
+                        <div class="header__scroll-text">Scroll</div>
+                     </div>
+                     <div class="header__socials">
+                        <a href="#!"><span class="icon-twitter"></span></a>
+                        <a href="#!"><span class="icon-instagram"></span></a>
+                        <a href="#!"><span class="icon-facebook"></span></a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+         </header>
+         <div class="swiper headerSwiper">
+            <div class="swiper-wrapper">
+               <div class="swiper-slide"><img src="img/default_main_bg.png" alt="Night Trips"></div>
+               <div class="swiper-slide"><img src="img/desert_main_bg.jpg" alt="Desert"></div>
+               <div class="swiper-slide"><img src="img/jungle_main_bg.jpg" alt="Desert"></div>
+               <div class="swiper-slide"><img src="img/mountains_main_bg.jpg" alt="Mountains"></div>
+               <div class="swiper-slide"><img src="img/lake_main_bg.jpg" alt="Lake"></div>
+            </div>
+            <div class="swiper-pagination"></div>
+         </div>
+      </section>
+
+      <main class="main">
+         <section class="pick-your-trip">
+            <div class="container">
+               <div class="pick-your-trip__grid">
+                  <div class="pick-your-trip__header">
+                     <h2 class="pick-your-trip__title">Pick your trip</h2>
+                     <span class="icon-x"></span>
+                     <p class="pick-your-trip__desc">Our team put together some trips to you to discover,
+                        feel free to discover each of them.</p>
+                  </div>
+                  <ul class="pick-your-trip__buttons">
+                     <li class="pick-your-trip__button active" data-trip="trip1"><a href="#!">Chill Adventure</a></li>
+                     <li class="pick-your-trip__button" data-trip="trip2"><a href="#!">Spooky Times</a></li>
+                     <li class="pick-your-trip__button" data-trip="trip3"><a href="#!">Desert Madness </a></li>
+                     <li class="pick-your-trip__button" data-trip="trip4"><a href="#!">Out in the wild</a></li>
+                  </ul>
+                  <div class="pick-your-trip__content">
+                     <div class="trip" id="trip1">
+                        <div class="trip__column_left">
+                           <div class="trip__card">
+                              <div class="trip__caption">
+                                 <span class="trip__caption_number">01.</span>
+                                 <div class="trip__caption_name">Grand dunes landscape</div>
+                              </div>
+                              <div class="swiper tripSwiper">
+                                 <div class="swiper-wrapper">
+                                    <div class="swiper-slide trip__image">
+                                       <img src="img/pyt_image-chill-1.png" alt="Desert">
+                                       <div class="swiper-button-prev"></div>
+                                       <div class="swiper-button-next"></div>
+                                    </div>
+                                    <div class="swiper-slide trip__image">
+
+                                       <img src="img/pyt_image-chill-2.jpg" alt="Desert 2">
+                                       <div class="swiper-button-prev"></div>
+                                       <div class="swiper-button-next"></div>
+
+                                    </div>
+                                    <div class="swiper-slide trip__image">
+
+                                       <img src="img/pyt_image-chill-3.jpg" alt="Desert 3">
+                                       <div class="swiper-button-prev"></div>
+                                       <div class="swiper-button-next"></div>
+
+                                    </div>
+                                    <div class="swiper-slide trip__image">
+
+                                       <img src="img/pyt_image-chill-4.jpg" alt="Desert 4">
+                                       <div class="swiper-button-prev"></div>
+                                       <div class="swiper-button-next"></div>
+
+                                    </div>
+                                 </div>
+                              </div>
+
+                           </div>
+                        </div>
+                        <div class="trip__column_right">
+                           <div class="trip__review-and-socials">
+                              <div class="trip__review">
+                                 <h2 class="trip__title">Chill Adventure</h2>
+                                 <p class="trip__desc">Ornare vivamus molestie pellentesque nunc. Sed sapien erat
+                                    ultrices
+                                    curabitur. Erat id fringilla arcu condimentum fames.
+
+                                    <i>
+                                       Aliquet dictum aliquet faucibus cursus turpis. Suspendisse cum rutrum sit ut
+                                       sociis.
+                                       Pellentesque neque orci adipiscing pharetra lacus, dignissim pharetra ipsum
+                                       blandit.
+                                       Feugiat quis quam consectetur lectus id quis tortor vel, mattis.
+                                    </i>
+                                 </p>
+                                 <button class="trip__button button">See our latest offer</button>
+                              </div>
+                              <div class="trip__socials">
+                                 <span class="trip__socials_text">Share it:</span>
+                                 <div class="trip__socials-links">
+                                    <a href="#!"><span class="icon-instagram"></span></a>
+                                    <a href="#!"><span class="icon-facebook"></span></a>
+                                    <a href="#!"><span class="icon-twitter"></span></a>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="trip hidden" id="trip2">
+                        <div class="trip__column_left">
+                           <div class="trip__card">
+                              <div class="trip__caption">
+                                 <span class="trip__caption_number">02.</span>
+                                 <div class="trip__caption_name">The black forest</div>
+                              </div>
+                              <div class="swiper tripSwiper">
+                                 <div class="swiper-wrapper">
+                                    <div class="swiper-slide trip__image">
+                                       <img src="img/pyt_image-spooky-1.jpeg" alt="Desert">
+                                       <div class="swiper-button-prev"></div>
+                                       <div class="swiper-button-next"></div>
+                                    </div>
+                                    <div class="swiper-slide trip__image">
+
+                                       <img src="img/pyt_image-spooky-2.jpg" alt="Desert 2">
+                                       <div class="swiper-button-prev"></div>
+                                       <div class="swiper-button-next"></div>
+
+                                    </div>
+                                    <div class="swiper-slide trip__image">
+
+                                       <img src="img/pyt_image-spooky-3.jpeg" alt="Desert 3">
+                                       <div class="swiper-button-prev"></div>
+                                       <div class="swiper-button-next"></div>
+
+                                    </div>
+                                    <div class="swiper-slide trip__image">
+
+                                       <img src="img/pyt_image-spooky-4.jpg" alt="Desert 4">
+                                       <div class="swiper-button-prev"></div>
+                                       <div class="swiper-button-next"></div>
+
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="trip__column_right">
+                           <div class="trip__review-and-socials">
+                              <div class="trip__review">
+                                 <h2 class="trip__title">Spooky times</h2>
+                                 <p class="trip__desc">Ornare vivamus molestie pellentesque nunc. Sed sapien erat
+                                    ultrices
+                                    curabitur. Erat id fringilla arcu condimentum fames.
+
+                                    <i>
+                                       Aliquet dictum aliquet faucibus cursus turpis. Suspendisse cum rutrum sit ut
+                                       sociis.
+                                       Pellentesque neque orci adipiscing pharetra lacus, dignissim pharetra ipsum
+                                       blandit.
+                                       Feugiat quis quam consectetur lectus id quis tortor vel, mattis.
+                                    </i>
+                                 </p>
+                                 <button class="trip__button button">See our latest offer</button>
+                              </div>
+                              <div class="trip__socials">
+                                 <span class="trip__socials_text">Share it:</span>
+                                 <div class="trip__socials-links">
+                                    <a href="#!"><span class="icon-instagram"></span></a>
+                                    <a href="#!"><span class="icon-facebook"></span></a>
+                                    <a href="#!"><span class="icon-twitter"></span></a>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="trip hidden" id="trip3">
+                        <div class="trip__column_left">
+                           <div class="trip__card">
+                              <div class="trip__caption">
+                                 <span class="trip__caption_number">03.</span>
+                                 <div class="trip__caption_name">Rocky desert</div>
+                              </div>
+                              <div class="swiper tripSwiper">
+                                 <div class="swiper-wrapper">
+                                    <div class="swiper-slide trip__image">
+                                       <img src="img/pyt_image-desert-1.jpeg" alt="Desert">
+                                       <div class="swiper-button-prev"></div>
+                                       <div class="swiper-button-next"></div>
+                                    </div>
+                                    <div class="swiper-slide trip__image">
+
+                                       <img src="img/pyt_image-desert-2.webp" alt="Desert 2">
+                                       <div class="swiper-button-prev"></div>
+                                       <div class="swiper-button-next"></div>
+
+                                    </div>
+                                    <div class="swiper-slide trip__image">
+
+                                       <img src="img/pyt_image-desert-3.avif" alt="Desert 3">
+                                       <div class="swiper-button-prev"></div>
+                                       <div class="swiper-button-next"></div>
+
+                                    </div>
+                                    <div class="swiper-slide trip__image">
+
+                                       <img src="img/pyt_image-desert-4.jpg" alt="Desert 4">
+                                       <div class="swiper-button-prev"></div>
+                                       <div class="swiper-button-next"></div>
+
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="trip__column_right">
+                           <div class="trip__review-and-socials">
+                              <div class="trip__review">
+                                 <h2 class="trip__title">Desert Madness</h2>
+                                 <p class="trip__desc">Ornare vivamus molestie pellentesque nunc. Sed sapien erat
+                                    ultrices
+                                    curabitur. Erat id fringilla arcu condimentum fames.
+
+                                    <i>
+                                       Aliquet dictum aliquet faucibus cursus turpis. Suspendisse cum rutrum sit ut
+                                       sociis.
+                                       Pellentesque neque orci adipiscing pharetra lacus, dignissim pharetra ipsum
+                                       blandit.
+                                       Feugiat quis quam consectetur lectus id quis tortor vel, mattis.
+                                    </i>
+                                 </p>
+                                 <button class="trip__button button">See our latest offer</button>
+                              </div>
+                              <div class="trip__socials">
+                                 <span class="trip__socials_text">Share it:</span>
+                                 <div class="trip__socials-links">
+                                    <a href="#!"><span class="icon-instagram"></span></a>
+                                    <a href="#!"><span class="icon-facebook"></span></a>
+                                    <a href="#!"><span class="icon-twitter"></span></a>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="trip hidden" id="trip4">
+                        <div class="trip__column_left">
+                           <div class="trip__card">
+                              <div class="trip__caption">
+                                 <span class="trip__caption_number">04.</span>
+                                 <div class="trip__caption_name">Unexpected jungle</div>
+                              </div>
+                              <div class="swiper tripSwiper">
+                                 <div class="swiper-wrapper">
+                                    <div class="swiper-slide trip__image">
+                                       <img src="img/pyt_image-wild-1.jpeg" alt="Desert">
+                                       <div class="swiper-button-prev"></div>
+                                       <div class="swiper-button-next"></div>
+                                    </div>
+                                    <div class="swiper-slide trip__image">
+
+                                       <img src="img/pyt_image-wild-2.jpg" alt="Desert 2">
+                                       <div class="swiper-button-prev"></div>
+                                       <div class="swiper-button-next"></div>
+
+                                    </div>
+                                    <div class="swiper-slide trip__image">
+
+                                       <img src="img/pyt_image-wild-3.jpg" alt="Desert 3">
+                                       <div class="swiper-button-prev"></div>
+                                       <div class="swiper-button-next"></div>
+
+                                    </div>
+                                    <div class="swiper-slide trip__image">
+
+                                       <img src="img/pyt_image-wild-4.jpg" alt="Desert 4">
+                                       <div class="swiper-button-prev"></div>
+                                       <div class="swiper-button-next"></div>
+
+                                    </div>
+                                 </div>
+                              </div>
+
+                           </div>
+                        </div>
+                        <div class="trip__column_right">
+                           <div class="trip__review-and-socials">
+                              <div class="trip__review">
+                                 <h2 class="trip__title">Out in the wild</h2>
+                                 <p class="trip__desc">Ornare vivamus molestie pellentesque nunc. Sed sapien erat
+                                    ultrices
+                                    curabitur. Erat id fringilla arcu condimentum fames.
+
+                                    <i>
+                                       Aliquet dictum aliquet faucibus cursus turpis. Suspendisse cum rutrum sit ut
+                                       sociis.
+                                       Pellentesque neque orci adipiscing pharetra lacus, dignissim pharetra ipsum
+                                       blandit.
+                                       Feugiat quis quam consectetur lectus id quis tortor vel, mattis.
+                                    </i>
+                                 </p>
+                                 <button class="trip__button button">See our latest offer</button>
+                              </div>
+                              <div class="trip__socials">
+                                 <span class="trip__socials_text">Share it:</span>
+                                 <div class="trip__socials-links">
+                                    <a href="#!"><span class="icon-instagram"></span></a>
+                                    <a href="#!"><span class="icon-facebook"></span></a>
+                                    <a href="#!"><span class="icon-twitter"></span></a>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="about-us">
+            <div class="container">
+               <div class="about-us__grid">
+                  <div class="about-us__text-column">
+                     <h2 class="about-us__title">About Us</h2>
+                     <div class="about-us__text">
+                        <p><b>We’re a team of four passioned people.</b></p>
+
+                        <p>
+                           We’re ready to take the world by storm and
+                           let you find new travel opportunities.
+                        </p>
+
+                        <p>
+                           Our everyday task is to make sure that you satisfied with the services and products that we
+                           provide.
+                        </p>
+
+                        <p><b>With 💖 from Amsterdam, Netherlands.</b></p>
+                     </div>
+                     <button class="about-us__button button">Read more about us</button>
+                  </div>
+                  <div class="about-us__team-column team" id="team">
+                     <div class="team__member">
+                        <img src="img/about_us_image-1.jpg" alt="Martin Jack, CEO">
+                        <div class="team__member-name">Martin Jack,&nbsp<i>CEO</i></div>
+                     </div>
+                     <div class="team__member">
+                        <img src="img/about_us_image-2.jpg" alt="Lidia Sparrow, Art-Director">
+                        <div class="team__member-name">Lidia Sparrow,&nbsp<i>Art-Director</i></div>
+                     </div>
+                     <div class="team__member">
+                        <img src="img/about_us_image-3.jpg" alt="Julia Cage, Main consultant">
+                        <div class="team__member-name">Julia Cage,&nbsp<i>Main consultant</i></div>
+
+                     </div>
+                     <div class="team__member">
+                        <img src="img/about_us_image-4.jpg" alt="Vanessa Bronson, Sales manager">
+                        <div class="team__member-name">Vanessa Bronson,&nbsp<i>Sales manager</i></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <div class="bg-block"></div>
+      </main>
+
+      <section class="feedback">
+         <div class="container-small">
+            <div class="feedback__grid">
+               <div class="feedback__text">
+                  <h2 class="feedback__title">People’s thoughts</h2>
+                  <h3 class="feedback__subtitle">See what are others saying</h3>
+               </div>
+               <div class="feedback__comments comments">
+                  <div class="comment">
+                     <span class="icon-quotes comment__quotes"></span>
+                     <p class="comment__text">
+                        <b>
+                           Elementum mi felis, sit velit lobortis ultricies non. Mattis enim,
+                           nisl
+                        </b>
+                        adipiscing natoque diam et. Cum posuere in velit massa sagittis augue egestas. Eu sollicitudin
+                        et quam eu. Nunc, sed imperdiet blandit morbi. Maecenas lobortis tristique rutrum.
+                     </p>
+                     <div class="comment__user">
+                        <div class="comment__avatar"><img src="img/comments_image.jpg" alt="User image"></div>
+                        <div class="comment__user-info">
+                           <span class="comment__user-name">Judy Roseless</span>
+                           <span class="comment__user-position">Marketing head at ROM.</span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="comment">
+                     <span class="icon-quotes comment__quotes"></span>
+                     <p class="comment__text">
+                        <b>
+                           Elementum mi felis, sit velit lobortis ultricies non. Mattis enim,
+                           nisl
+                        </b>
+                        adipiscing natoque diam et. Cum posuere in velit massa sagittis augue egestas. Eu sollicitudin
+                        et quam eu. Nunc, sed imperdiet blandit morbi. Maecenas lobortis tristique rutrum.
+                     </p>
+                     <div class="comment__user">
+                        <div class="comment__avatar"><img src="img/comments_image.jpg" alt="User image"></div>
+                        <div class="comment__user-info">
+                           <span class="comment__user-name">Judy Roseless</span>
+                           <span class="comment__user-position">Marketing head at ROM.</span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="comment">
+                     <span class="icon-quotes comment__quotes"></span>
+                     <p class="comment__text">
+                        <b>
+                           Elementum mi felis, sit velit lobortis ultricies non. Mattis enim,
+                           nisl
+                        </b>
+                        adipiscing natoque diam et. Cum posuere in velit massa sagittis augue egestas. Eu sollicitudin
+                        et quam eu. Nunc, sed imperdiet blandit morbi. Maecenas lobortis tristique rutrum.
+                     </p>
+                     <div class="comment__user">
+                        <div class="comment__avatar"><img src="img/comments_image.jpg" alt="User image"></div>
+                        <div class="comment__user-info">
+                           <span class="comment__user-name">Judy Roseless</span>
+                           <span class="comment__user-position">Marketing head at ROM.</span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="comment">
+                     <span class="icon-quotes comment__quotes"></span>
+                     <p class="comment__text">
+                        <b>
+                           Elementum mi felis, sit velit lobortis ultricies non. Mattis enim,
+                           nisl
+                        </b>
+                        adipiscing natoque diam et. Cum posuere in velit massa sagittis augue egestas. Eu sollicitudin
+                        et quam eu. Nunc, sed imperdiet blandit morbi. Maecenas lobortis tristique rutrum.
+                     </p>
+                     <div class="comment__user">
+                        <div class="comment__avatar"><img src="img/comments_image.jpg" alt="User image"></div>
+                        <div class="comment__user-info">
+                           <span class="comment__user-name">Judy Roseless</span>
+                           <span class="comment__user-position">Marketing head at ROM.</span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="feedback__farewell">
+                  <div class="feedback__farewell-title">See you soon!</div>
+                  <div class="feedback__farewell-subtitle">We hope to meet each other very soon.</div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <footer class="footer">
+         <div class="container-small">
+            <div class="footer__grid">
+               <div class="footer__main">
+                  <div class="footer__column">
+                     <div class="footer__column-title">About</div>
+                     <div class="footer__column-divider"><img src="img/footer_divider.svg"></div>
+                     <ul class="footer__column-list">
+                        <li class="footer__column-link"><a href="#!">Our Mission</a></li>
+                        <li class="footer__column-link"><a href="#!">Terms</a></li>
+                        <li class="footer__column-link"><a href="#!">Copyrights</a></li>
+                     </ul>
+                  </div>
+                  <div class="footer__column">
+                     <div class="footer__column-title">FAQ</div>
+                     <div class="footer__column-divider"><img src="img/footer_divider.svg"></div>
+                     <ul class="footer__column-list">
+                        <li class="footer__column-link"><a href="#!">Rules</a></li>
+                        <li class="footer__column-link"><a href="#!">Tickets</a></li>
+                        <li class="footer__column-link"><a href="#!">Editions</a></li>
+                        <li class="footer__column-link"><a href="#!">Contribute</a></li>
+                     </ul>
+                  </div>
+                  <div class="footer__column">
+                     <div class="footer__column-title">Events</div>
+                     <div class="footer__column-divider"><img src="img/footer_divider.svg"></div>
+                     <ul class="footer__column-list">
+                        <li class="footer__column-link"><a href="#!">Star Gazing</a></li>
+                        <li class="footer__column-link"><a href="#!">Desert Mania</a></li>
+                        <li class="footer__column-link"><a href="#!">Dunes Madness</a></li>
+                        <li class="footer__column-link"><a href="#!">Spooky Land</a></li>
+                     </ul>
+                  </div>
+                  <div class="footer__column">
+                     <div class="footer__column-title">Contact us</div>
+                     <div class="footer__column-divider"><img src="img/footer_divider.svg"></div>
+                     <ul class="footer__column-list">
+                        <li class="footer__column-link"><a href="#!">hello@example.com</a></li>
+                        <li class="footer__column-link"><a href="#!">(405) 555-0128</a></li>
+                        <li class="footer__column-link"><a href="#!">(252) 555-0126</a></li>
+                     </ul>
+                  </div>
+                  <div class="footer__column footer__socials">
+                     <div class="footer__column-title footer__socials-title">Follow us</div>
+                     <div class="footer__socials-links">
+                        <a href="#!"><span class="icon-instagram"></span></a>
+                        <a href="#!"><span class="icon-facebook"></span></a>
+                        <a href="#!"><span class="icon-twitter"></span></a>
+                     </div>
+                  </div>
+               </div>
+               <div class="footer__lower">
+                  <div class="footer__copyrights">Copyright © Night Trips 2019. All rights reserved.</div>
+                  <div class="footer__logo"><a href="#!"><img src="img/logo.png" alt="Night Trips"></a></div>
+               </div>
+            </div>
+         </div>
+      </footer>
+
+
+   </section>
+
+   <script type="module" src="js/swiper.js"></script>
+   <!-- <script src="js/team_render.js"></script> -->
+   <script src="js/main.js"></script>
+</body>
+
+</html>
