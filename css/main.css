@@ -835,6 +835,7 @@ body {
   left: -92px;
   max-width: 207px;
   z-index: 2;
+  pointer-events: none;
 }
 @media screen and (max-width: 1024px) {
   .trip__caption {
