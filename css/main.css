@@ -677,10 +677,10 @@ body {
   }
 }
 
-.pick-your-trip__button {
+.pick-your-trip__buttons .pick-your-trip__button {
   position: relative;
 }
-.pick-your-trip__button::after {
+.pick-your-trip__buttons .pick-your-trip__button::after {
   content: "";
   display: block;
   width: 100%;
@@ -692,11 +692,11 @@ body {
   border-radius: 13px;
 }
 @media screen and (max-width: 1024px) {
-  .pick-your-trip__button::after {
+  .pick-your-trip__buttons .pick-your-trip__button::after {
     height: 1px;
   }
 }
-.pick-your-trip__button a {
+.pick-your-trip__buttons .pick-your-trip__button a {
   display: block;
   padding: 30px;
   color: #ffffff;
@@ -707,26 +707,26 @@ body {
   opacity: 0.5;
 }
 @media screen and (max-width: 1024px) {
-  .pick-your-trip__button a {
+  .pick-your-trip__buttons .pick-your-trip__button a {
     font-size: 14px;
     font-weight: 400;
     padding: 15px;
   }
 }
 @media screen and (max-width: 768px) {
-  .pick-your-trip__button a {
+  .pick-your-trip__buttons .pick-your-trip__button a {
     font-size: 11px;
     padding: 12px;
   }
 }
 @media screen and (max-width: 425px) {
-  .pick-your-trip__button a {
+  .pick-your-trip__buttons .pick-your-trip__button a {
     font-size: 10px;
     padding: 8px;
   }
 }
 
-.pick-your-trip__button.active::after {
+.pick-your-trip__buttons .pick-your-trip__button.active::after {
   content: "";
   display: block;
   width: 100%;
@@ -738,29 +738,29 @@ body {
   border-radius: 13px;
 }
 @media screen and (max-width: 1024px) {
-  .pick-your-trip__button.active::after {
+  .pick-your-trip__buttons .pick-your-trip__button.active::after {
     height: 2px;
   }
 }
-.pick-your-trip__button.active a {
+.pick-your-trip__buttons .pick-your-trip__button.active a {
   color: #41EAD4;
   opacity: 1;
   font-size: 18px;
   letter-spacing: -0.36px;
 }
 @media screen and (max-width: 1024px) {
-  .pick-your-trip__button.active a {
+  .pick-your-trip__buttons .pick-your-trip__button.active a {
     font-size: 15px;
     font-weight: 700;
   }
 }
 @media screen and (max-width: 768px) {
-  .pick-your-trip__button.active a {
+  .pick-your-trip__buttons .pick-your-trip__button.active a {
     font-size: 12px;
   }
 }
 @media screen and (max-width: 425px) {
-  .pick-your-trip__button.active a {
+  .pick-your-trip__buttons .pick-your-trip__button.active a {
     font-size: 11px;
   }
 }

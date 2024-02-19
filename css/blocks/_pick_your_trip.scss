@@ -110,7 +110,7 @@
     row-gap: 0;
   }
 }
-.pick-your-trip__button {
+.pick-your-trip__buttons .pick-your-trip__button {
   position: relative;
   &::after {
     content: '';
@@ -152,7 +152,7 @@
     }
   }
 }
-.pick-your-trip__button.active {
+.pick-your-trip__buttons .pick-your-trip__button.active {
   &::after {
     content: '';
     display: block;
